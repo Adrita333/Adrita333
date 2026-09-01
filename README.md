@@ -1,8 +1,8 @@
 ## Debadrita Choudhury
 
 Data science and analytics leader, ~20 years across BFSI, CPG, retail and insurance.
-I build the solution as well as the strategy — the projects below are working
-applications, and three of them you can open and use right now.
+I build the solution as well as the strategy — the four projects below are working
+applications, not prototypes, and you can open and use every one of them right now.
 
 ---
 
@@ -13,10 +13,10 @@ applications, and three of them you can open and use right now.
 | **Luxury Clienteling Co-Pilot** | A daily advisor brief for a luxury maison. Ranks which clients to contact, on which channel, with a drafted message — and holds back the ones it should not contact, with the reason shown | **[Open the brief](https://adrita333.github.io/luxury-copilot/)** | [repo](https://github.com/Adrita333/luxury-copilot) |
 | **Retail Invoice & Trade-Claim Agent** | Reads retailer deduction claims, checks each against the governing supply contract, and returns a verdict with the clause it relied on | **[Open the app](https://retail-invoice-agent.streamlit.app/)** | [repo](https://github.com/Adrita333/retail-invoice-agent) |
 | **Customer Enquiry Triage Agent** | Classifies and answers inbound customer enquiries in four languages, escalating anything it cannot substantiate | **[Open the app](https://customer-enquiry-agent.streamlit.app/)** | [repo](https://github.com/Adrita333/Customer-enquiry-agent) |
-| **Demand Forecast Health Check** | Runs five diagnostic gates over a demand history and ranks *why* the forecast is failing, by recoverable value | — | [repo](https://github.com/Adrita333/demand-forecast-agent) |
+| **Demand Forecast Health Check** | Runs five diagnostic gates over a demand history and ranks *why* the forecast is failing, by recoverable value — with validation tests designed to disprove its own findings | **[Open the app](https://demand-forecast-agent.streamlit.app/)** | [repo](https://github.com/Adrita333/demand-forecast-agent) |
 
 *The clienteling brief is a static page and loads instantly — it regenerates itself
-every morning. The two Streamlit apps are hosted free; if one shows a "wake app"
+every morning. The three Streamlit apps are hosted free; if one shows a "wake app"
 button, give it about 30 seconds.*
 
 ---
@@ -38,8 +38,9 @@ non-governing contract.
 them not in English. 44% auto-answered, ~61% reduction in handling time,
 100% recall on health-related escalations — none of which are ever auto-answered.
 
-**Demand forecast health check** — five failure modes ranked by recoverable value,
-with four validation tests. Three of those tests can fail.
+**Demand forecast health check** — five failure modes ranked by recoverable value.
+The two largest fixes cost nothing: a parameter in the replenishment rule, and one
+line in the scoring script. Four validation tests, three of which can fail.
 
 ---
 
@@ -68,4 +69,4 @@ data the levels differ — what transfers is the method.
 
 ---
 
-📧 dchoudhury.oct@gmail.com
+📧 dchoudhury.oct@gmail.com · © 2026 Debadrita Choudhury. Published for evaluation, not licensed for reuse.
