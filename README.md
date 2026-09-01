@@ -2,7 +2,7 @@
 
 Data science and analytics leader, ~20 years across BFSI, CPG, retail and insurance.
 I build the solution as well as the strategy — the projects below are working
-applications, not prototypes, and three of them you can open and use right now.
+applications, and three of them you can open and use right now.
 
 ---
 
